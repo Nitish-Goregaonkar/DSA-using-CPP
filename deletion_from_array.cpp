@@ -16,10 +16,11 @@ cout<<"\n";
 cout<<"Enter the position of element you want to delete\n"; 
 cin>>k ;
 item=LA[k-1]; 
+for(j=k-1;j<=n-2,j++)
 LA[j]=LA[j+1]; 
-n=n-1;: 
+n=n-1;
 cout<<"*****Array after deletion********\n"; 
-for(j=0;j<n;j++), 
+for(j=0;j<n;j++) 
 halore t 
 cout<<LA[j]<<"\t"; 
 cout<<"\n"; 
