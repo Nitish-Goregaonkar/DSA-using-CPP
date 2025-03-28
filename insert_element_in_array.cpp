@@ -25,3 +25,4 @@ for(j=n-1;j>=k-1;j--){
 LA[k-1]=item;
 n=n+1;
 cout<<"!!***** Array after INSERTION**********\n"; 
+//displaying the elements
