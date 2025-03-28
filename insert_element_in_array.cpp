@@ -26,3 +26,5 @@ LA[k-1]=item;
 n=n+1;
 cout<<"!!***** Array after INSERTION**********\n"; 
 //displaying the elements
+for(j=0;j<n;j++)
+cout<<LA[j]<<"\t";
