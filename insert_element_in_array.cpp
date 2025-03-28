@@ -9,7 +9,7 @@ int LA[MAX];
 cout<<"Enter the size and elements of an array:\n"; 
 cin>>n;
 for(j=0;j<n;j++) 
-cin>>LA[j]<<"\t";
+cin>>LA[j];
 
 cout<<"!!***** Array before INSERTION**********\n"; 
 //Displaying the elements of an array 
