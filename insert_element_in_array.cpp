@@ -28,3 +28,6 @@ cout<<"!!***** Array after INSERTION**********\n";
 //displaying the elements
 for(j=0;j<n;j++)
 cout<<LA[j]<<"\t";
+cout<<"\n";
+return 0;
+}
