@@ -21,7 +21,8 @@ LA[j]=LA[j+1];
 n=n-1;
 cout<<"*****Array after deletion********\n"; 
 for(j=0;j<n;j++) 
-halore t 
+ 
 cout<<LA[j]<<"\t"; 
 cout<<"\n"; 
 return 0;
+}
