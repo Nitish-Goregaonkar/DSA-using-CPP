@@ -23,4 +23,5 @@ for(j=n-1;j>=k-1;j--){
     LA[j+1]=LA[j];
 }
 LA[k-1]=item;
-n=n+1
+n=n+1;
+cout<<"!!***** Array after INSERTION**********\n"; 
