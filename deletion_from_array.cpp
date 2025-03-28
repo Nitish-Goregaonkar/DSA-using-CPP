@@ -15,7 +15,7 @@ cout<<LA[j]<<"\t";
 cout<<"\n"; 
 cout<<"Enter the position of element you want to delete\n"; 
 cin>>k ;
-item=LA[k-1); 
+item=LA[k-1]; 
 LA[j]=LA[j+1]; 
 n=n-1;: 
 cout<<"*****Array after deletion********\n"; 
