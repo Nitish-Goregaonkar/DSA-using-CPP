@@ -21,4 +21,17 @@ int main() {
     cout << "Enter the element you are searching for\n";
     cin >> item;
 
-    
+    beg = 0;
+    end = n - 1;
+
+    while (beg <= end) {
+        mid = (beg + end) / 2;
+
+        if (data[mid] == item) {
+            cout << "The element is found at index: " << mid + 1 << "\n";
+            return 0;
+        } else if (item < data[mid]) {
+            end = mid - 1;
+        } else {
+            beg = mid + 1;
+      
