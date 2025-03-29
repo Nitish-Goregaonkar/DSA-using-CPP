@@ -32,4 +32,10 @@ int main() {
         }
     }
 
-    
+    cout << "***** Array after sorting **********\n";
+    for (i = 0; i < n; i++)
+        cout << data[i] << "\t";
+    cout << "\n";
+
+    return 0;
+}
