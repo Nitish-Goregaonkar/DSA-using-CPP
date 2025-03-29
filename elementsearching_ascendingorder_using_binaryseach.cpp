@@ -7,4 +7,7 @@ int main() {
     int beg, mid, end, n, item;
     int data[MAX];
 
+    cout << "Enter the size and elements of an array in ascending order\n";
+    cin >> n;
+
     
