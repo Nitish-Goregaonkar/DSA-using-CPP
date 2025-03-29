@@ -18,4 +18,10 @@ int main() {
         cout << data[i] << "\t";
     cout << "\n";
 
-    
+    // Use of bubble sort for sorting
+    for (k = 1; k < n; k++) {
+        ptr = 0;
+        while (ptr < n - k) {
+            if (data[ptr] > data[ptr + 1]) {
+                // Swap elements
+                
