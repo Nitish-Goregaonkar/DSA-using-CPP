@@ -24,4 +24,12 @@ int main() {
         while (ptr < n - k) {
             if (data[ptr] > data[ptr + 1]) {
                 // Swap elements
-                
+                temp = data[ptr];
+                data[ptr] = data[ptr + 1];
+                data[ptr + 1] = temp;
+            }
+            ptr++;
+        }
+    }
+
+    
