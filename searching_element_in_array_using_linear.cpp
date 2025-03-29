@@ -28,4 +28,10 @@ int main() {
     while (data[i] != item)
         i++;
 
-    
+    if (i == n)
+        cout << "The element that you are searching for is not present in the array\n";
+    else
+        cout << "The element is found at location= " << i + 1 << "\n";
+
+    return 0;
+}
