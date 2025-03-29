@@ -34,4 +34,9 @@ int main() {
             end = mid - 1;
         } else {
             beg = mid + 1;
-      
+        }
+    }
+
+    cout << "The element is not present in the array\n";
+    return 0;
+}
