@@ -31,4 +31,38 @@ int main() {
         i++;
     }
 
-   
+    cout << "Elements in the linked list are as follows:\n";
+    struct node *p = start;
+    while (p != NULL) {
+        cout << p->info << "\t";
+        p = p->link;
+    }
+    cout << "\n";
+
+    cout << "Enter the element you want to search\n";
+    cin >> item;
+
+    struct node *q = start;
+    while (q != NULL) {
+        count++;
+        if (q->info == item) {
+            cout << "Element found at position " << count << "\n";
+            flag = 1;
+            break;
+        }
+        q = q->link;
+    }
+
+    if (flag == 0)
+        cout << "Element not found\n";
+
+    // Free allocated memory
+    struct node *temp;
+    while (start != NULL) {
+        temp = start;
+        start = start->link;
+        delete temp;
+    }
+
+    return 0;
+}
