@@ -28,3 +28,39 @@ public:
         for (int i = 0; i < row; i++)
             ptrToMatrix[i] = new int[col];
     }
+    Matrix matrixmultiplication(Matrix m1,Matrix m2)//FRIEND FUNCTION to multiply matrices
+    {
+        int i,j,k,p;
+        p=m1.col;
+        Matrix m3(m1.row,m2.col);
+        for(i=0;i<m3.row;i++)
+        {
+            for(j=0;j<m3.col;j++)
+            {
+                m3.getElement(i,j,0);
+                for(k=0;k<p;k++)
+                {
+                    m3.ptrToMatrix[i][j]=m3.ptrToMatrix[i][j]+(m1.ptrToMatrix[i][k])*(m2.ptrToMatrix[k][j]);
+                }
+            }
+        }
+        return (m3);
+    }
+    
+    int main()//main function
+    {
+        int i,j,r,c,value;
+        cout<<"Enter the dimension of first matrix\n";
+        cin>>r>>c;
+        Matrix mat1(r,c);
+        cout<<"Enter the elements of first matrix row by row\n";
+        for(i=0;i<r;i++)
+        {
+            for(j=0;j<c;j++)
+            {
+                cin>>value;
+                mat1.getElement(i,j,value);
+            }
+        }
+    }
+    
