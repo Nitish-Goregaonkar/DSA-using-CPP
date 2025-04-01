@@ -32,3 +32,13 @@ int RandomPivotPartition(int a[], int l, int h) {
     return Partition(a, l, h);
 }
 
+int QuickSort(int a[], int l, int h) {
+    int pindex;
+    if(l < h) {
+        pindex = RandomPivotPartition(a, l, h);
+        QuickSort(a, l, pindex - 1);
+        QuickSort(a, pindex + 1, h);
+    }
+    return 0;
+}
+
