@@ -27,3 +27,8 @@ int RandomPivotPartition(int a[], int l, int h) {
     int pvt, n, temp;
     n = rand();
     pvt = l + n % (h - l + 1);
+    swap(&a[h], &a[pvt]);
+
+    return Partition(a, l, h);
+}
+
