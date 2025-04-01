@@ -63,4 +63,25 @@ public:
             }
         }
     }
-    
+    cin >> r >> c;
+Matrix mat2(r, c);
+cout << "Enter the elements of second matrix row by row\n";
+for (i = 0; i < r; i++)
+{
+    for (j = 0; j < c; j++)
+    {
+        cin >> value;
+        mat2.setElement(i, j, value);
+    }
+}
+Matrix mat3(mat1.row, mat2.col); // matrix to store the product
+mat3 = matrixMultiplication(mat1, mat2);
+for (i = 0; i < mat3.row; i++)
+{
+    for (j = 0; j < mat3.col; j++)
+    {
+        cout << mat3.display[i][j] << "\t";
+    }
+    cout << "\n";
+}
+return 0;
