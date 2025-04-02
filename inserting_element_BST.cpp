@@ -15,3 +15,13 @@ class BST
         void Inorder(BST *);
 };
 
+// Default Constructor definition.
+BST::BST() : data(0), left(NULL), right(NULL){}
+
+// Parameterized Constructor definition.
+BST::BST(int value)
+{
+    data = value;
+    left = right = NULL;
+}
+
