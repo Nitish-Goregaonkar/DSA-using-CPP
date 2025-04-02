@@ -52,3 +52,16 @@ BST* BST::Insert(BST *root, int value)
     return root;
 }
 
+// Inorder traversal function.
+// This gives data in sorted order.
+void BST::Inorder(BST *root)
+{
+    if(!root)
+    {
+        return ;
+    }
+    Inorder(root->left);
+    cout << root->data << endl;
+    Inorder(root->right);
+}
+
