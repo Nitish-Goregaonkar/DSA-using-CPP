@@ -41,4 +41,14 @@ BST* BST::Insert(BST *root, int value)
         // Process right nodes.
         root->right = Insert(root->right, value);
     }
-   
+    else
+    {
+        // Insert left node data, if the 'value'
+        // to be inserted is greater than 'root' node data.
+        // Process left nodes.
+        root->left = Insert(root->left, value);
+    }
+    // Return 'root' node, after insertion.
+    return root;
+}
+
