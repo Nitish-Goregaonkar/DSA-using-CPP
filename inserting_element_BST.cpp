@@ -25,3 +25,20 @@ BST::BST(int value)
     left = right = NULL;
 }
 
+// Insert function definition.
+BST* BST::Insert(BST *root, int value)
+{
+    if(!root)
+    {
+        // Insert the first node, if root is NULL.
+        return new BST(value);
+    }
+    // Insert data.
+    if(value > root->data)
+    {
+        // Insert right node data, if the 'value'
+        // to be inserted is greater than 'root' node data.
+        // Process right nodes.
+        root->right = Insert(root->right, value);
+    }
+   
