@@ -51,3 +51,15 @@ void printSolution(int dist[][V]) {
     }
 }
 
+// Driver code
+int main() {
+    /* Let us create the following weighted graph
+          10
+      (0)------>(3)
+       |       /|\
+      5|      | |
+       |      | | 1
+       |     \|/
+      (1)----->(2)
+          3        */
+    
