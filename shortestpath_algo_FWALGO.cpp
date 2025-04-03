@@ -31,3 +31,13 @@ void floydWarshall(int graph[][V]) {
             }
         }
     }
+
+    // Print the shortest distance matrix
+    printSolution(dist);
+}
+
+/* A utility function to print the solution */
+void printSolution(int dist[][V]) {
+    cout << "Shortest distances between every pair of vertices:\n";
+    for (int i = 0; i < V; i++) {
+        
