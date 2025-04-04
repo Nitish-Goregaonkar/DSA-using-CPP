@@ -44,4 +44,10 @@ void printSolution(int dist[][V]) {
             if (dist[i][j] == INF)
                 cout << "INF "
                      << " ";
-            
+            else
+                cout << dist[i][j] << " ";
+        }
+        cout << endl;
+    }
+}
+
