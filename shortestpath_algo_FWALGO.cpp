@@ -14,3 +14,8 @@ void printSolution(int dist[][V]);
 void floydWarshall(int graph[][V]) {
     int dist[V][V], i, j, k;
 
+    // Initialize the solution matrix same as input graph matrix
+    for (i = 0; i < V; i++)
+        for (j = 0; j < V; j++)
+            dist[i][j] = graph[i][j];
+
