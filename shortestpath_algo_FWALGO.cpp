@@ -67,4 +67,6 @@ int main() {
                        {INF, INF, 0, 1},
                        {INF, INF, INF, 0}};
 
+    // Run the Floyd-Warshall algorithm
+    floydWarshall(graph);
    
