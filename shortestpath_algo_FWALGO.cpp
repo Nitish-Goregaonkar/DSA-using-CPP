@@ -69,4 +69,5 @@ int main() {
 
     // Run the Floyd-Warshall algorithm
     floydWarshall(graph);
-   
+    return 0;
+
