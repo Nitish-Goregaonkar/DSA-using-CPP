@@ -32,4 +32,8 @@ void floydWarshall(int graph[][V]) {
         }
     }
 
-    
+    // Print the shortest distance matrix
+    printSolution(dist);
+}
+
+/* A utility function to print the solution */
