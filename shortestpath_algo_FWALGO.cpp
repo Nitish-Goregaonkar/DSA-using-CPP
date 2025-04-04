@@ -37,3 +37,11 @@ void floydWarshall(int graph[][V]) {
 }
 
 /* A utility function to print the solution */
+void printSolution(int dist[][V]) {
+    cout << "Shortest distances between every pair of vertices:\n";
+    for (int i = 0; i < V; i++) {
+        for (int j = 0; j < V; j++) {
+            if (dist[i][j] == INF)
+                cout << "INF "
+                     << " ";
+            
