@@ -10,4 +10,7 @@ int binarysearch(int arr[], int n, int key) {
         } else if (arr[mid] > key) {
             e = mid - 1;  // Search in the left half
         } else {
-          
+            s = mid + 1;  // Search in the right half
+        }
+    }
+    
