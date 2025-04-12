@@ -8,4 +8,5 @@ int binarysearch(int arr[], int n, int key) {
         if (arr[mid] == key) {
             return mid;  // Return index if key is found
         } else if (arr[mid] > key) {
-            
+            e = mid - 1;  // Search in the left half
+       
