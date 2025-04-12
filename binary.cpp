@@ -6,4 +6,6 @@ int binarysearch(int arr[], int n, int key) {
     while (s <= e) {
         int mid = (s + e) / 2;
         if (arr[mid] == key) {
+            return mid;  // Return index if key is found
+        } else if (arr[mid] > key) {
             
