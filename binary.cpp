@@ -13,4 +13,7 @@ int binarysearch(int arr[], int n, int key) {
             s = mid + 1;  // Search in the right half
         }
     }
+    return -1;  // Key not found
+}
+int main() {
     
