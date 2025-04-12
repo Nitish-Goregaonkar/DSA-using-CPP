@@ -16,4 +16,6 @@ int binarysearch(int arr[], int n, int key) {
     return -1;  // Key not found
 }
 int main() {
+    int n;
+    cin >> n;
     
