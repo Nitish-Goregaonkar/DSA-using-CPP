@@ -13,4 +13,5 @@ int main() {
         cout << data[i] << "\t";
     cout << "\n";
     cout << "Enter the element you are searching for\n";
+    cin >> item;
     
