@@ -12,4 +12,5 @@ int main() {
     for (int i = 0; i < n; i++)
         cout << data[i] << "\t";
     cout << "\n";
+    cout << "Enter the element you are searching for\n";
     
