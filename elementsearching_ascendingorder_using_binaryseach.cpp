@@ -10,4 +10,5 @@ int main() {
         cin >> data[i];
     cout << "***** Given Array **********\n";
     for (int i = 0; i < n; i++)
-        
+        cout << data[i] << "\t";
+    
