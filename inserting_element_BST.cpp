@@ -4,4 +4,4 @@ class BST
 {
     int data;
     BST *left, *right;
-    
+    public:
