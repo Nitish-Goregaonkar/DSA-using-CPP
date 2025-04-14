@@ -10,4 +10,5 @@ class BST
         // Parameterized constructor.
         BST(int);
         // Insert function.
+        BST* Insert(BST *, int);
        
