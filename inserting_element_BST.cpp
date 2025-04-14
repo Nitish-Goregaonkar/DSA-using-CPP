@@ -8,4 +8,4 @@ class BST
         // Default constructor.
         BST();
         // Parameterized constructor.
-       
+        BST(int);
