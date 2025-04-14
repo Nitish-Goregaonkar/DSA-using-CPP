@@ -13,3 +13,5 @@ class BST
         BST* Insert(BST *, int);
         // Inorder traversal.
         void Inorder(BST *);
+};
+
