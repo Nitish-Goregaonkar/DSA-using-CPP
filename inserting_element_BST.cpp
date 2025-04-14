@@ -11,4 +11,5 @@ class BST
         BST(int);
         // Insert function.
         BST* Insert(BST *, int);
+        // Inorder traversal.
        
