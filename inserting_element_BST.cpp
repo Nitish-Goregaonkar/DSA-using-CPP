@@ -9,3 +9,5 @@ class BST
         BST();
         // Parameterized constructor.
         BST(int);
+        // Insert function.
+       
