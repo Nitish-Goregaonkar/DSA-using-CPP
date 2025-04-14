@@ -7,4 +7,5 @@ class BST
     public:
         // Default constructor.
         BST();
-      
+        // Parameterized constructor.
+       
