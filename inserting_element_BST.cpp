@@ -6,4 +6,5 @@ class BST
     BST *left, *right;
     public:
         // Default constructor.
-       
+        BST();
+      
