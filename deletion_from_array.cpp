@@ -6,10 +6,8 @@ int main() {
     int LA[MAX];
     cout << "Enter size and elements of the array\n";
     cin >> n;
-
     for (j = 0; j < n; j++)
         cin >> LA[j];
-
     cout << "*****Array before deletion********\n";
     for (j = 0; j < n; j++)
         cout << LA[j] << "\t";
