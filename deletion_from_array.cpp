@@ -14,7 +14,6 @@ int main() {
     cout << "\n";
     cout << "Enter the position of the element you want to delete\n";
     cin >> k;
-
     if (k < 1 || k > n) {  // Check for valid index
         cout << "Invalid position! Please enter a position between 1 and " << n << ".\n";
         return 1; // Exit with an error code
