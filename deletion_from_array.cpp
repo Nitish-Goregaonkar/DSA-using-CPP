@@ -27,6 +27,5 @@ int main() {
     for (j = 0; j < n; j++)
         cout << LA[j] << "\t";
     cout << "\n";
-
     return 0;
 }
