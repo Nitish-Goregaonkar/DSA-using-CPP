@@ -25,4 +25,5 @@ int main() {
     n = n - 1; // Reduce the array size
     cout << "*****Array after deletion********\n";
     for (j = 0; j < n; j++)
-        
+        cout << LA[j] << "\t";
+    
