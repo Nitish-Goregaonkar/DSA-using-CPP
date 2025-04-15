@@ -19,7 +19,6 @@ int main() {
         return 1; // Exit with an error code
     }
     item = LA[k - 1];  // Store the element to be deleted
-
     // Corrected the loop syntax
     for (j = k - 1; j <= n - 2; j++) 
         LA[j] = LA[j + 1];
