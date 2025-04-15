@@ -12,7 +12,6 @@ int main() {
     for (j = 0; j < n; j++)
         cout << LA[j] << "\t";
     cout << "\n";
-
     cout << "Enter the position of the element you want to delete\n";
     cin >> k;
 
