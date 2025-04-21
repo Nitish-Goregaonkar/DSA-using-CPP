@@ -18,4 +18,5 @@ int main() {
         cout << "Invalid position! Please enter a position between 1 and " << n << ".\n";
         return 1; // Exit with an error code
     }
-    
+    item = LA[k - 1];  // Store the element to be deleted
+   
