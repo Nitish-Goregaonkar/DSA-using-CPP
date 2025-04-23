@@ -115,4 +115,8 @@ int main() // Main function
             {
                 cout << mat3.getElement(i, j) << "\t";
             }
-          
+            cout << endl;
+        }
+    }
+    catch (const exception &e)
+    
