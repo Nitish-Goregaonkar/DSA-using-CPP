@@ -23,4 +23,19 @@ public:
     int getRow() const { return row; }
     int getCol() const { return col; }
 
+    // Function to assign values to the matrix
+    void setElement(int r, int c, int value)
+    {
+        ptrToMatrix[r][c] = value;
+    }
+
+    // Function to retrieve values from the matrix
+    int getElement(int r, int c) const
+    {
+        return ptrToMatrix[r][c];
+    }
+
+    // Friend function for matrix multiplication
+    friend Matrix matrixMultiplication(const Matrix &m1, const Matrix &m2);
+
    
