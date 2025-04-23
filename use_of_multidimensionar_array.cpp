@@ -111,3 +111,8 @@ int main() // Main function
         cout << "Resultant matrix:\n";
         for (i = 0; i < mat3.getRow(); i++)
         {
+            for (j = 0; j < mat3.getCol(); j++)
+            {
+                cout << mat3.getElement(i, j) << "\t";
+            }
+          
