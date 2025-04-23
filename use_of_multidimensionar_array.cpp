@@ -119,4 +119,9 @@ int main() // Main function
         }
     }
     catch (const exception &e)
-    
+    {
+        cerr << e.what() << endl;
+    }
+
+    return 0;
+}
