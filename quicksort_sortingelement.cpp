@@ -55,4 +55,8 @@ int main() {
     QuickSort(arr, 0, n - 1);
     cout << "\nSorted Data ";
 
-    
+    for(int i = 0; i < n; i++)
+        cout << arr[i];
+
+    return 0;
+}
