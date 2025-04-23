@@ -104,4 +104,10 @@ int main() // Main function
         }
     }
 
-    
+    // Multiply matrices
+    try
+    {
+        Matrix mat3 = matrixMultiplication(mat1, mat2);
+        cout << "Resultant matrix:\n";
+        for (i = 0; i < mat3.getRow(); i++)
+        {
