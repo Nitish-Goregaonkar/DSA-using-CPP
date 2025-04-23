@@ -19,4 +19,8 @@ public:
         }
     }
 
-    
+    // Getter functions for row and column
+    int getRow() const { return row; }
+    int getCol() const { return col; }
+
+   
