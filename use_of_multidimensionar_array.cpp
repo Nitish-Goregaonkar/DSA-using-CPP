@@ -38,4 +38,14 @@ public:
     // Friend function for matrix multiplication
     friend Matrix matrixMultiplication(const Matrix &m1, const Matrix &m2);
 
-   
+    // Destructor to free allocated memory
+    ~Matrix()
+    {
+        for (int i = 0; i < row; i++)
+        {
+            delete[] ptrToMatrix[i];
+        }
+        delete[] ptrToMatrix;
+    }
+};
+
