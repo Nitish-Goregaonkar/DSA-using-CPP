@@ -49,3 +49,18 @@ public:
     }
 };
 
+// Friend function to multiply matrices
+Matrix matrixMultiplication(const Matrix &m1, const Matrix &m2)
+{
+    if (m1.getCol() != m2.getRow())
+    {
+        throw invalid_argument("Matrix dimensions do not match for multiplication.");
+    }
+
+    Matrix m3(m1.getRow(), m2.getCol());
+    for (int i = 0; i < m3.getRow(); i++)
+    {
+        for (int j = 0; j < m3.getCol(); j++)
+        {
+            m3.setElement(i, j, 0); // Initialize to 0
+          
