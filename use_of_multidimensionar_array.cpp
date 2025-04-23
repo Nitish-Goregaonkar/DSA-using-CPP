@@ -90,4 +90,18 @@ int main() // Main function
         }
     }
 
+    // Input second matrix
+    cout << "Enter the dimensions of the second matrix (rows and columns): ";
+    cin >> r >> c;
+    Matrix mat2(r, c);
+    cout << "Enter the elements of the second matrix row by row:\n";
+    for (i = 0; i < r; i++)
+    {
+        for (j = 0; j < c; j++)
+        {
+            cin >> value;
+            mat2.setElement(i, j, value);
+        }
+    }
+
     
