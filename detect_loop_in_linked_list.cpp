@@ -7,4 +7,7 @@ class Node {
 public:
     int data;
     Node* next;
+    Node(int x) {
+        this->data = x;
+        this->next = nullptr;
    
