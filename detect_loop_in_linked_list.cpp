@@ -23,4 +23,10 @@ bool detectLoop(Node* head) {
         // the first time, insert it in hash
         st.insert(head);
         head = head->next;
-   
+    }
+    return false;
+}
+int main() {
+    // Create a hard-coded linked list:
+    // 1 -> 3-> 4
+    Node* head = new Node(1);
