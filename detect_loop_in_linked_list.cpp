@@ -19,4 +19,8 @@ bool detectLoop(Node* head) {
         // in hashmap it means there is a cycle
         if (st.find(head) != st.end())
             return true;
-        
+        // If we are seeing the node for
+        // the first time, insert it in hash
+        st.insert(head);
+        head = head->next;
+   
