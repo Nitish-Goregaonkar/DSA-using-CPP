@@ -10,4 +10,6 @@ public:
     Node(int x) {
         this->data = x;
         this->next = nullptr;
-   
+    }
+};
+b
