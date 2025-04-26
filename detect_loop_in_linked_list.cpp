@@ -14,4 +14,5 @@ public:
 };
 bool detectLoop(Node* head) {
     unordered_set<Node*>st;
-   
+    while (head != nullptr) {
+       
