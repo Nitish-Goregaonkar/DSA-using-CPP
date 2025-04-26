@@ -17,4 +17,6 @@ bool detectLoop(Node* head) {
     while (head != nullptr) {
         // If this node is already present
         // in hashmap it means there is a cycle
-       \
+        if (st.find(head) != st.end())
+            return true;
+        
