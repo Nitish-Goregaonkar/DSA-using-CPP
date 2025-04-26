@@ -15,4 +15,6 @@ public:
 bool detectLoop(Node* head) {
     unordered_set<Node*>st;
     while (head != nullptr) {
-       
+        // If this node is already present
+        // in hashmap it means there is a cycle
+       \
