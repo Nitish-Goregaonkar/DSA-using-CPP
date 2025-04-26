@@ -12,4 +12,6 @@ public:
         this->next = nullptr;
     }
 };
-b
+bool detectLoop(Node* head) {
+    unordered_set<Node*>st;
+   
