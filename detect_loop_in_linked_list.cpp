@@ -30,3 +30,13 @@ int main() {
     // Create a hard-coded linked list:
     // 1 -> 3-> 4
     Node* head = new Node(1);
+    head->next = new Node(3);
+    head->next->next = new Node(4);
+	// Create a loop
+    head->next->next->next = head->next;
+    if (detectLoop(head))
+        cout << "true";
+    else
+        cout << "false";
+    return 0;
+}
