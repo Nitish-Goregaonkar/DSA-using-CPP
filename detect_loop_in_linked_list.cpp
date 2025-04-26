@@ -4,3 +4,5 @@
 #include <unordered_set>
 using namespace std;
 class Node {
+public:
+    
