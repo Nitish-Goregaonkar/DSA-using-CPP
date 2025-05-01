@@ -43,7 +43,6 @@ int main() {
         }
         q = q->link;
     }
-
     if (flag == 0)
         cout << "Element not found\n";
 
