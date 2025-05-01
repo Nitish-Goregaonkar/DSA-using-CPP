@@ -7,7 +7,6 @@ struct node {
 int main() {
     int i = 0, item, data, count = 0, flag = 0, n;
     struct node *ptr;
-
     cout << "Enter the size of the linked list\n";
     cin >> n;
 
