@@ -14,7 +14,6 @@ int main() {
         struct node *temp = new node;  // No need for 'struct' in C++
         temp->info = data;
         temp->link = NULL;
-
         if (start == NULL)
             start = temp;
         else {
