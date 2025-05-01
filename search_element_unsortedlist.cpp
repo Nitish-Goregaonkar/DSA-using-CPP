@@ -52,6 +52,5 @@ int main() {
         start = start->link;
         delete temp;
     }
-
     return 0;
 }
