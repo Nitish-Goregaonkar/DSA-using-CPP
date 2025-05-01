@@ -9,7 +9,6 @@ int main() {
     struct node *ptr;
     cout << "Enter the size of the linked list\n";
     cin >> n;
-
     while (i < n) {
         cin >> data;
         struct node *temp = new node;  // No need for 'struct' in C++
