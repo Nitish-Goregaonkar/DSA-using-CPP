@@ -24,7 +24,6 @@ int main() {
         }
         i++;
     }
-
     cout << "Elements in the linked list are as follows:\n";
     struct node *p = start;
     while (p != NULL) {
