@@ -1,11 +1,9 @@
 #include <iostream>
 using namespace std;
-
 struct node {
     int info;
     struct node *link;
 } *start = NULL;
-
 int main() {
     int i = 0, item, data, count = 0, flag = 0, n;
     struct node *ptr;
