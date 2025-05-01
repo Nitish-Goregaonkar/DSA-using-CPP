@@ -31,7 +31,6 @@ int main() {
         p = p->link;
     }
     cout << "\n";
-
     cout << "Enter the element you want to search\n";
     cin >> item;
 
