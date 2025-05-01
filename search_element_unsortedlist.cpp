@@ -45,7 +45,6 @@ int main() {
     }
     if (flag == 0)
         cout << "Element not found\n";
-
     // Free allocated memory
     struct node *temp;
     while (start != NULL) {
