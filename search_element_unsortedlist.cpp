@@ -33,7 +33,6 @@ int main() {
     cout << "\n";
     cout << "Enter the element you want to search\n";
     cin >> item;
-
     struct node *q = start;
     while (q != NULL) {
         count++;
