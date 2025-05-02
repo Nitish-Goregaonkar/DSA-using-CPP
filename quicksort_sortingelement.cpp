@@ -7,7 +7,6 @@ void swap(int *a, int *b) {
     *a = *b;
     *b = temp;
 }
-
 int Partition(int a[], int l, int h) {
     int pivot, index, i;
     index = l;
