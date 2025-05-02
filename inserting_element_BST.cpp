@@ -48,7 +48,6 @@ BST* BST::Insert(BST *root, int value)
     // Return 'root' node, after insertion.
     return root;
 }
-
 // Inorder traversal function.
 // This gives data in sorted order.
 void BST::Inorder(BST *root)
