@@ -46,7 +46,6 @@ int main() {
         cout << "\nEnter element " << i << ": ";
         cin >> arr[i];
     }
-
     QuickSort(arr, 0, n - 1);
     cout << "\nSorted Data ";
 
