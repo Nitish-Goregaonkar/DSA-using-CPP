@@ -37,7 +37,6 @@ int QuickSort(int a[], int l, int h) {
     }
     return 0;
 }
-
 int main() {
     int n;
     cout << "\nEnter the number of data element to be sorted: ";
