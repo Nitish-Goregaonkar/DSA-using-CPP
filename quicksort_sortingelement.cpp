@@ -20,7 +20,6 @@ int Partition(int a[], int l, int h) {
     swap(&a[pivot], &a[index]);
     return index;
 }
-
 int RandomPivotPartition(int a[], int l, int h) {
     int pvt, n, temp;
     n = rand();
