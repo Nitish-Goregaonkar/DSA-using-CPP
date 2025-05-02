@@ -22,7 +22,6 @@ BST::BST(int value)
     data = value;
     left = right = NULL;
 }
-
 // Insert function definition.
 BST* BST::Insert(BST *root, int value)
 {
