@@ -2,7 +2,6 @@
 using namespace std; 
 #define MAX 100 
 int main(){
-
 int  j,n,k,item;
 int LA[MAX]; 
 //Creation of a of an array demont 
