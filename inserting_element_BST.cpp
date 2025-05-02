@@ -16,7 +16,6 @@ class BST
 };
 // Default Constructor definition.
 BST::BST() : data(0), left(NULL), right(NULL){}
-
 // Parameterized Constructor definition.
 BST::BST(int value)
 {
