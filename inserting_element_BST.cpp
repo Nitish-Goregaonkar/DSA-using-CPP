@@ -14,7 +14,6 @@ class BST
         // Inorder traversal.
         void Inorder(BST *);
 };
-
 // Default Constructor definition.
 BST::BST() : data(0), left(NULL), right(NULL){}
 
