@@ -60,7 +60,6 @@ void BST::Inorder(BST *root)
     cout << root->data << endl;
     Inorder(root->right);
 }
-
 // Driver code
 int main()
 {
