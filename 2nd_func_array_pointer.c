@@ -65,3 +65,51 @@ int main(void) {
 
 
 
+#include <stdio.h>
+
+// Structure definition
+struct Student {
+    int roll;
+    char name[50];
+    float marks;
+};
+
+// Function to input student details
+void inputStudent(struct Student *s) {
+    printf("Enter roll: ");
+    scanf("%d", &s->roll);
+
+    printf("Enter name: ");
+    scanf(" %49[^\n]", s->name);
+
+    printf("Enter marks: ");
+    scanf("%f", &s->marks);
+}
+
+// Function to display student details
+void displayStudent(struct Student *s) {
+    printf("Roll: %d | Name: %s | Marks: %.2f\n",
+           s->roll, s->name, s->marks);
+}
+
+int main() {
+    struct Student s[100];
+    int n, i;
+
+    printf("Enter number of students: ");
+    scanf("%d", &n);
+
+    // Input
+    for (i = 0; i < n; i++) {
+        printf("\nStudent %d:\n", i + 1);
+        inputStudent(&s[i]); // pass address of struct
+    }
+
+    // Output
+    printf("\n--- Student Details ---\n");
+    for (i = 0; i < n; i++) {
+        displayStudent(&s[i]); // pass address of struct
+    }
+
+    return 0;
+}
