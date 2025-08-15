@@ -7,7 +7,6 @@ int main() {
     int i;
     // int j =6;
     int size=5;
-    
     int pos =4 ;
     int j =pos;
      int value=100;
