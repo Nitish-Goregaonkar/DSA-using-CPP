@@ -59,7 +59,6 @@ int main() {
 
     printf("Enter number of students: ");
     scanf("%d", &n);
-
     // Input student data
     for (i = 0; i < n; i++) {
         printf("\nEnter roll: ");
