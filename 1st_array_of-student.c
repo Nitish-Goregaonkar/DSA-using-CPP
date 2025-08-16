@@ -45,7 +45,6 @@ int main(void) {
 
 
 #include <stdio.h>
-
 // Structure definition
 struct Student {
     int roll;
