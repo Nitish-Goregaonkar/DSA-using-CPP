@@ -20,6 +20,5 @@ int main() {
     for (i = 0; i < size ; i++) {
         printf("Element %d: %d\n", i, *(ptr + i)); // Pointer arithmetic
     }
-
     return 0;
 }
