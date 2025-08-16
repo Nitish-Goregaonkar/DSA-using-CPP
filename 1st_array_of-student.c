@@ -64,7 +64,6 @@ int main() {
     for (i = 0; i < n; i++) {
         printf("\nEnter roll: ");
         scanf("%d", &s[i].roll);
-
         printf("Enter name: ");
         scanf(" %49[^\n]", s[i].name);
         printf("Enter marks: ");
