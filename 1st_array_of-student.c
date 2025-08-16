@@ -67,7 +67,6 @@ int main() {
 
         printf("Enter name: ");
         scanf(" %49[^\n]", s[i].name);
-
         printf("Enter marks: ");
         scanf("%f", &s[i].marks);
     }
