@@ -71,7 +71,6 @@ int main() {
         printf("Enter marks: ");
         scanf("%f", &s[i].marks);
     }
-
     // Output student data
     printf("\n--- Student Details ---\n");
     for (i = 0; i < n; i++) {
