@@ -43,7 +43,7 @@ int main(void) {
 }
 
 
-
+//extra code same question related
 #include <stdio.h>
 // Structure definition
 struct Student {
