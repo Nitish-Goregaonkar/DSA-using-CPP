@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     // int n =6;
     int arr[10] = {10, 20, 30, 40, 50}; // Step 1: Create array
