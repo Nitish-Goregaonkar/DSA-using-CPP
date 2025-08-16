@@ -78,6 +78,5 @@ int main() {
         printf("Roll: %d | Name: %s | Marks: %.2f\n",
                s[i].roll, s[i].name, s[i].marks);
     }
-
     return 0;
 }
