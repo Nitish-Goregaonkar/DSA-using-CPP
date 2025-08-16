@@ -56,7 +56,6 @@ struct Student {
 int main() {
     struct Student s[100];
     int n, i;
-
     printf("Enter number of students: ");
     scanf("%d", &n);
     // Input student data
