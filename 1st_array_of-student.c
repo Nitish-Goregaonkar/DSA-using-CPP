@@ -41,8 +41,6 @@ int main(void) {
 
     return 0;
 }
-
-
 //extra code same question related
 #include <stdio.h>
 // Structure definition
