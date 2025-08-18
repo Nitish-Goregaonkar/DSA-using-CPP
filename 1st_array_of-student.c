@@ -38,7 +38,6 @@ int main(void) {
         printf("Roll: %d | Name: %s | Marks: %.2f\n",
                students[i].roll, students[i].name, students[i].marks);
     }
-
     return 0;
 }
 //extra code same question related
