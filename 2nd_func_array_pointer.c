@@ -64,7 +64,6 @@ int main(void) {
 
 
 
-
 #include <stdio.h>
 
 // Structure definition
