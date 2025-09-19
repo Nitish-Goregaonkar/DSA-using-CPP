@@ -18,7 +18,6 @@ int main() {
     int arr[5] = {10, 20, 30, 40, 50}; // Step 1: Create array
     int *ptr;                          // Step 2: Declare pointer
     int i;
-
     ptr = arr; // Point to the first element of the array
 
     printf("Array elements using pointers:\n");
