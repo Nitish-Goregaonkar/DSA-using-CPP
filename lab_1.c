@@ -19,7 +19,6 @@ int main() {
     int *ptr;                          // Step 2: Declare pointer
     int i;
     ptr = arr; // Point to the first element of the array
-
     printf("Array elements using pointers:\n");
     for (i = 0; i < 5; i++) {
         printf("Element %d: %d\n", i, *(ptr + i)); // Pointer arithmetic
