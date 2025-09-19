@@ -27,7 +27,6 @@ int main() {
     fifth->data = 50;
     fourth->link = fifth;
     fifth->link = NULL; // End of list
-    
     // Traverse and print linked list
     struct node *ptr = start;
     if (ptr == NULL)
