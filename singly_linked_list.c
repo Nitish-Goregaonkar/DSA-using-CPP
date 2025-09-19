@@ -22,7 +22,6 @@ int main() {
     struct node *fourth = (struct node*)malloc(sizeof(struct node));
     fourth->data = 50;
     third->link = fourth;
-
     // Create fifth node
     struct node *fifth = (struct node*)malloc(sizeof(struct node));
     fifth->data = 50;
