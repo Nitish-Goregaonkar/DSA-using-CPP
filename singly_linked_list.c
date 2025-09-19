@@ -37,6 +37,5 @@ int main() {
             ptr = ptr->link;
         }
     }
-    
     return 0;
 }
