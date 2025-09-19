@@ -10,7 +10,6 @@ int main() {
     // Create first node
     start = (struct node*)malloc(sizeof(struct node));
     start->data = 10;
-    
     // Create second node
     struct node *second = (struct node*)malloc(sizeof(struct node));
     second->data = 20;
