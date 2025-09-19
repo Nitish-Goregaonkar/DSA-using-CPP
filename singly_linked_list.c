@@ -18,7 +18,6 @@ int main() {
     struct node *third = (struct node*)malloc(sizeof(struct node));
     third->data = 30;
     second->link = third;
-
     // Create fourth node
     struct node *fourth = (struct node*)malloc(sizeof(struct node));
     fourth->data = 50;
