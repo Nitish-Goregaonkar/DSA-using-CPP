@@ -6,7 +6,6 @@ struct node
     struct node *link;
 };
 struct node *start;
-
 int main() {
     // Create first node
     start = (struct node*)malloc(sizeof(struct node));
