@@ -5,7 +5,6 @@ struct Node {
     struct Node* next;
 };
 struct Node* avail = NULL;  // Global pointer for available nodes (free pool)
-
 struct Node* getNode(int data) {
     struct Node* newNode;
     if (avail != NULL) {
