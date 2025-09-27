@@ -76,7 +76,6 @@ void print_avail() {
     }
     printf("NULL\n");
 }
-
 int main() {
     struct Node* head = NULL;
 
