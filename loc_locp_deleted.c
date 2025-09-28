@@ -57,7 +57,6 @@ void delete_node(struct Node** head, int item) {
 
     printf("Item %d deleted and added to avail list.\n", item);
 }
-
 void print_list(struct Node* head) {
     struct Node* temp = head;
     while (temp != NULL) {
@@ -66,7 +65,6 @@ void print_list(struct Node* head) {
     }
     printf("NULL\n");
 }
-
 void print_avail() {
     printf("Avail nodes: ");
     struct Node* temp = avail;
