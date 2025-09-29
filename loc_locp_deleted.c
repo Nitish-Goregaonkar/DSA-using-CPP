@@ -54,7 +54,6 @@ void delete_node(struct Node** head, int item) {
     // Add node to avail list instead of freeing
     ptr->next = avail;
     avail = ptr;
-
     printf("Item %d deleted and added to avail list.\n", item);
 }
 void print_list(struct Node* head) {
