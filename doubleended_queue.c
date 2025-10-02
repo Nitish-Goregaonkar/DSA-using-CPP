@@ -33,7 +33,6 @@ void insertRear(int x) {
     }
     deque[rear] = x;
 }
-
 void deleteFront() {
     if (front == -1) {
         printf("Deque is Empty!\n");
