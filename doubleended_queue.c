@@ -47,7 +47,6 @@ void deleteFront() {
         front++;
     }
 }
-
 void deleteRear() {
     if (front == -1) {
         printf("Deque is Empty!\n");
