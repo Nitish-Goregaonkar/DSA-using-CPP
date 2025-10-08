@@ -12,7 +12,7 @@ int main() {
     start->data = 10;
     // Create second node
     struct node *second = (struct node*)malloc(sizeof(struct node));
-    second->data = 20;
+    second->data = 20;  
     start->link = second;
     // Create third node
     struct node *third = (struct node*)malloc(sizeof(struct node));
