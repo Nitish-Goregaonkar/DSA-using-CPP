@@ -7,7 +7,6 @@ struct Node {
     int data;                // Node data
     struct Node* next;       // Pointer to next node
 };
-
 int main() {
     // Create nodes
     struct Node* nodeA = (struct Node*)malloc(sizeof(struct Node));
