@@ -7,7 +7,6 @@ struct Node {
     int key;
     struct Node *next;
 };
-
 struct Node *table[SIZE];
 
 int hash(int k) { return k % SIZE; }
