@@ -30,7 +30,6 @@ void display() {
         printf("NULL\n");
     }
 }
-
 int main() {
     insert(1);
     insert(6);
