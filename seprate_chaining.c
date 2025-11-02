@@ -8,7 +8,6 @@ struct Node {
     struct Node *next;
 };
 struct Node *table[SIZE];
-
 int hash(int k) { return k % SIZE; }
 
 void insert(int k) {
