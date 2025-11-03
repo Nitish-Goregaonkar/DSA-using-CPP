@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 #define SIZE 5
-
 struct Node {
     int key;
     struct Node *next;
