@@ -7,7 +7,6 @@ struct Node {
 };
 struct Node *table[SIZE];
 int hash(int k) { return k % SIZE; }
-
 void insert(int k) {
     int i = hash(k);
     struct Node *n = malloc(sizeof(struct Node));
