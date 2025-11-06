@@ -14,7 +14,6 @@ void insert(int k) {
     n->next = table[i];
     table[i] = n;
 }
-
 void display() {
     for (int i = 0; i < SIZE; i++) {
         printf("%d: ", i);
