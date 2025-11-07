@@ -32,4 +32,4 @@ int main() {
     insert(2);
     display();
     return 0;
-}
+}///
