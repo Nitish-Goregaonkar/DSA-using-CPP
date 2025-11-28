@@ -1,5 +1,5 @@
 // // #include <stdio.h>
-// // #define MAX 5   // maximum size of stack
+// // #define MAX 5   // maximum size of stack 
 
 // // int stack[MAX];
 // // int top = -1;
