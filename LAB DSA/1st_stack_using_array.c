@@ -3,7 +3,6 @@
 
 int stack[MAX];
 int top = -1;
-
 // Function to push element
 void push(int value) {
     if (top == MAX - 1) {
