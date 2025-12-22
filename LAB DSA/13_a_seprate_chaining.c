@@ -14,7 +14,6 @@
 // int hashFunction(int key) {
 //     return key % SIZE;
 // }
-
 // // Insert key into hash table
 // void insert(int key) {
 //     int hashIndex = hashFunction(key);
