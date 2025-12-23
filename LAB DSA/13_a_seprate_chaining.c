@@ -7,9 +7,7 @@
 //     int key;
 //     struct Node* next;
 // } Node;
-
 // Node* hashTable[SIZE];
-
 // // Hash function
 // int hashFunction(int key) {
 //     return key % SIZE;
