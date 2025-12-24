@@ -20,7 +20,6 @@
 //     newNode->next = hashTable[hashIndex];
 //     hashTable[hashIndex] = newNode;
 // }
-
 // // Search key in hash table
 // int search(int key) {
 //     int hashIndex = hashFunction(key);
