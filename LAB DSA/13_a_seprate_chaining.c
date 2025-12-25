@@ -31,7 +31,6 @@
 //     }
 //     return 0;
 // }
-
 // // Delete key from hash table
 // void delete(int key) {
 //     int hashIndex = hashFunction(key);
