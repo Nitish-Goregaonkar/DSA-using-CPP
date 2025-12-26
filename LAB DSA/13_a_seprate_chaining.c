@@ -36,7 +36,6 @@
 //     int hashIndex = hashFunction(key);
 //     Node* temp = hashTable[hashIndex];
 //     Node* prev = NULL;
-    
 //     while (temp != NULL && temp->key != key) {
 //         prev = temp;
 //         temp = temp->next;
