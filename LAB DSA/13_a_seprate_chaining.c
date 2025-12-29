@@ -41,7 +41,6 @@
 //         temp = temp->next;
 //     }
 //     if (temp == NULL) return; // Key not found
-    
 //     if (prev == NULL) {
 //         hashTable[hashIndex] = temp->next;
 //     } else {
