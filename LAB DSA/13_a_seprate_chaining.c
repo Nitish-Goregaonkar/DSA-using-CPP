@@ -48,7 +48,6 @@
 //     }
 //     free(temp);
 // }
-
 // // Display hash table
 // void display() {
 //     for (int i = 0; i < SIZE; i++) {
