@@ -60,7 +60,6 @@
 //         printf("NULL\n");
 //     }
 // }
-
 // int main() {
 //     for(int i = 0; i < SIZE; i++) {
 //         hashTable[i] = NULL;
