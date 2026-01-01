@@ -64,7 +64,6 @@
 //     for(int i = 0; i < SIZE; i++) {
 //         hashTable[i] = NULL;
 //     }
-    
 //     insert(10);
 //     insert(20);
 //     insert(15);
