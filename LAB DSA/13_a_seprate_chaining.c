@@ -169,7 +169,6 @@
 //     struct Node *next;
 // } Node;
 // Node *table[SIZE];
-
 // int hash(int key) {
 //     return key % SIZE;
 // }
