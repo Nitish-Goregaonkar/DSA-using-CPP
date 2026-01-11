@@ -172,7 +172,6 @@
 // int hash(int key) {
 //     return key % SIZE;
 // }
-
 // void insert(int key) {
 //     int h = hash(key);
 //     Node *n = malloc(sizeof(Node));
