@@ -29,7 +29,6 @@ int precedence(char symbol)
     }
     return 0;
 }
-
 void infixtpostfix(char infix[], char postfix[])
 {
     char symbol;
