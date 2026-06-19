@@ -34,8 +34,8 @@ int main() {
     int result = minmax(arr, 0, n - 1, true);
     int result2 = minmax(arr, 0, n - 1, false);
 
-    printf("answer:- %d\n", result);
-        printf("answer:- %d\n", result2);
+    printf("Max:- %d\n", result);
+        printf("Min:- %d\n", result2);
 
     return 0;
 }
